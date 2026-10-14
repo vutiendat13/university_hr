@@ -1,0 +1,254 @@
+[
+  {
+    "id": "LOG00001",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-09-30 09:00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00002",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Thêm giảng viên",
+    "target": "GV050",
+    "timestamp": "2026-10-01 09:03:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00003",
+    "user": "manager",
+    "role": "MANAGER",
+    "action": "Sửa giảng viên",
+    "target": "GV002",
+    "timestamp": "2026-10-02 09:06:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00004",
+    "user": "manager",
+    "role": "MANAGER",
+    "action": "Duyệt đơn nghỉ phép",
+    "target": "NP003 (GV011)",
+    "timestamp": "2026-10-03 09:09:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00005",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Sao lưu dữ liệu",
+    "target": "backup",
+    "timestamp": "2026-10-04 09:12:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00006",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Xoá bộ môn",
+    "target": "BM-CU",
+    "timestamp": "2026-10-05 09:15:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00007",
+    "user": "manager",
+    "role": "MANAGER",
+    "action": "Thêm đánh giá",
+    "target": "DG010 (GV010)",
+    "timestamp": "2026-10-06 09:18:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00008",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-07 09:21:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00009",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-09 13:48:51",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00010",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-09 13:50:43",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00011",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Từ chối đơn nghỉ phép",
+    "target": "NP006 (GV013)",
+    "timestamp": "2026-10-09 13:51:21",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00012",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-09 13:54:48",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00013",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng xuất",
+    "target": "-",
+    "timestamp": "2026-10-09 13:55:44",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00014",
+    "user": "lecturer",
+    "role": "LECTURER",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-09 13:56:29",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00015",
+    "user": "lecturer",
+    "role": "LECTURER",
+    "action": "Chấm công vào",
+    "target": "CC00161 (GV001)",
+    "timestamp": "2026-10-09 13:58:37",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00016",
+    "user": "lecturer",
+    "role": "LECTURER",
+    "action": "Chấm công ra",
+    "target": "CC00161 (GV001)",
+    "timestamp": "2026-10-09 13:58:40",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00017",
+    "user": "admin",
+    "role": "",
+    "action": "Đăng nhập thất bại",
+    "target": "admin",
+    "timestamp": "2026-10-09 13:58:51",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00018",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-09 13:59:01",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00019",
+    "user": "lecturer",
+    "role": "LECTURER",
+    "action": "Đăng xuất",
+    "target": "-",
+    "timestamp": "2026-10-09 13:59:39",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00020",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-12 23:47:39",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00021",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng xuất",
+    "target": "-",
+    "timestamp": "2026-10-12 23:50:25",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00022",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-13 01:41:16",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00023",
+    "user": "admin",
+    "role": "ADMIN",
+    "action": "Đăng xuất",
+    "target": "-",
+    "timestamp": "2026-10-13 01:58:47",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00024",
+    "user": "manager",
+    "role": "MANAGER",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-13 01:59:40",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00025",
+    "user": "manager",
+    "role": "MANAGER",
+    "action": "Đăng xuất",
+    "target": "-",
+    "timestamp": "2026-10-13 02:10:06",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00026",
+    "user": "lecturer",
+    "role": "LECTURER",
+    "action": "Đăng nhập",
+    "target": "-",
+    "timestamp": "2026-10-13 02:10:22",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00027",
+    "user": "lecturer",
+    "role": "LECTURER",
+    "action": "Chấm công vào",
+    "target": "CC00162 (GV001)",
+    "timestamp": "2026-10-13 02:11:11",
+    "ip": "127.0.0.1"
+  },
+  {
+    "id": "LOG00028",
+    "user": "lecturer",
+    "role": "LECTURER",
+    "action": "Thêm đơn nghỉ phép",
+    "target": "NP025 (GV001)",
+    "timestamp": "2026-10-13 02:12:33",
+    "ip": "127.0.0.1"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "PM",
+    "name": "Công nghệ phần mềm",
+    "faculty_id": "CNTT",
+    "head": "Đặng Ngọc Hoa"
+  },
+  {
+    "id": "HTTT",
+    "name": "Hệ thống thông tin",
+    "faculty_id": "CNTT",
+    "head": "Trần Thị Mai"
+  },
+  {
+    "id": "MMT",
+    "name": "Mạng máy tính",
+    "faculty_id": "CNTT",
+    "head": "Phạm Văn Nam"
+  },
+  {
+    "id": "KHMT",
+    "name": "Khoa học máy tính",
+    "faculty_id": "CNTT",
+    "head": "Lê Thị Hương"
+  },
+  {
+    "id": "QTKD",
+    "name": "Quản trị kinh doanh",
+    "faculty_id": "KT",
+    "head": "Lý Minh Nam"
+  },
+  {
+    "id": "KTKT",
+    "name": "Kế toán – Kiểm toán",
+    "faculty_id": "KT",
+    "head": "Lý Diệu Nga"
+  },
+  {
+    "id": "TCNH",
+    "name": "Tài chính – Ngân hàng",
+    "faculty_id": "KT",
+    "head": "Phạm Thị Chi"
+  },
+  {
+    "id": "TA",
+    "name": "Tiếng Anh",
+    "faculty_id": "NN",
+    "head": "Dương Diệu Thơm"
+  },
+  {
+    "id": "TQ",
+    "name": "Tiếng Trung",
+    "faculty_id": "NN",
+    "head": "Nguyễn Diệu Ly"
+  },
+  {
+    "id": "DCN",
+    "name": "Điện công nghiệp",
+    "faculty_id": "DDT",
+    "head": "Đỗ Diệu Hoa"
+  },
+  {
+    "id": "DTVT",
+    "name": "Điện tử – Viễn thông",
+    "faculty_id": "DDT",
+    "head": "Vũ Bích Hồng"
+  },
+  {
+    "id": "CKCT",
+    "name": "Cơ khí chế tạo",
+    "faculty_id": "CK",
+    "head": "Nguyễn Minh Toàn"
+  },
+  {
+    "id": "CDT",
+    "name": "Cơ điện tử",
+    "faculty_id": "CK",
+    "head": "Hoàng Diệu Hà"
+  },
+  {
+    "id": "GDTH",
+    "name": "Giáo dục tiểu học",
+    "faculty_id": "SP",
+    "head": "Hoàng Công Trung"
+  }
+]

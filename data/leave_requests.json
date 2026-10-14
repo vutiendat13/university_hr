@@ -1,0 +1,389 @@
+[
+  {
+    "id": "NP001",
+    "lecturer_id": "GV001",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-09-21",
+    "to_date": "2026-09-24",
+    "reason": "Nghỉ phép năm",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản lý Nhân sự",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-09-15 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-14 08:15:00"
+  },
+  {
+    "id": "NP002",
+    "lecturer_id": "GV012",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-10-08",
+    "to_date": "2026-10-11",
+    "reason": "Tham dự hội thảo",
+    "status": "Đã duyệt",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Đã duyệt",
+        "note": "",
+        "at": "2026-10-05 09:30:00"
+      }
+    ],
+    "created_at": "2026-10-04 08:15:00"
+  },
+  {
+    "id": "NP003",
+    "lecturer_id": "GV013",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-10-08",
+    "to_date": "2026-10-11",
+    "reason": "Tham dự hội thảo",
+    "status": "Đã duyệt",
+    "history": [
+      {
+        "by": "Quản lý Nhân sự",
+        "action": "Đã duyệt",
+        "note": "",
+        "at": "2026-10-04 09:30:00"
+      }
+    ],
+    "created_at": "2026-10-03 08:15:00"
+  },
+  {
+    "id": "NP004",
+    "lecturer_id": "GV008",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-10-17",
+    "to_date": "2026-10-19",
+    "reason": "Về quê giải quyết việc riêng",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-10-04 09:30:00"
+      }
+    ],
+    "created_at": "2026-10-03 08:15:00"
+  },
+  {
+    "id": "NP005",
+    "lecturer_id": "GV011",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-09-29",
+    "to_date": "2026-10-01",
+    "reason": "Việc gia đình",
+    "status": "Đã duyệt",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Đã duyệt",
+        "note": "",
+        "at": "2026-09-27 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-26 08:15:00"
+  },
+  {
+    "id": "NP006",
+    "lecturer_id": "GV013",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-10-27",
+    "to_date": "2026-10-28",
+    "reason": "Chăm sóc người thân ốm",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "Đéo thích",
+        "at": "2026-10-09 13:51:21"
+      }
+    ],
+    "created_at": "2026-10-06 08:15:00"
+  },
+  {
+    "id": "NP007",
+    "lecturer_id": "GV015",
+    "type": "Nghỉ việc riêng",
+    "from_date": "2026-10-21",
+    "to_date": "2026-10-24",
+    "reason": "Về quê giải quyết việc riêng",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-10-08 09:30:00"
+      }
+    ],
+    "created_at": "2026-10-07 08:15:00"
+  },
+  {
+    "id": "NP008",
+    "lecturer_id": "GV017",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-09-10",
+    "to_date": "2026-09-10",
+    "reason": "Nghỉ phép năm",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-09-05 08:15:00"
+  },
+  {
+    "id": "NP009",
+    "lecturer_id": "GV019",
+    "type": "Nghỉ việc riêng",
+    "from_date": "2026-09-07",
+    "to_date": "2026-09-10",
+    "reason": "Về quê giải quyết việc riêng",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-09-02 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-01 08:15:00"
+  },
+  {
+    "id": "NP010",
+    "lecturer_id": "GV021",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-10-22",
+    "to_date": "2026-10-22",
+    "reason": "Việc gia đình",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-10-02 08:15:00"
+  },
+  {
+    "id": "NP011",
+    "lecturer_id": "GV023",
+    "type": "Nghỉ việc riêng",
+    "from_date": "2026-09-06",
+    "to_date": "2026-09-10",
+    "reason": "Về quê giải quyết việc riêng",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-09-04 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-03 08:15:00"
+  },
+  {
+    "id": "NP012",
+    "lecturer_id": "GV025",
+    "type": "Nghỉ việc riêng",
+    "from_date": "2026-09-27",
+    "to_date": "2026-09-29",
+    "reason": "Về quê giải quyết việc riêng",
+    "status": "Đã duyệt",
+    "history": [
+      {
+        "by": "Quản lý Nhân sự",
+        "action": "Đã duyệt",
+        "note": "",
+        "at": "2026-09-24 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-23 08:15:00"
+  },
+  {
+    "id": "NP013",
+    "lecturer_id": "GV027",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-09-20",
+    "to_date": "2026-09-24",
+    "reason": "Chăm sóc người thân ốm",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-09-16 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-15 08:15:00"
+  },
+  {
+    "id": "NP014",
+    "lecturer_id": "GV029",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-09-08",
+    "to_date": "2026-09-12",
+    "reason": "Việc gia đình",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-09-04 08:15:00"
+  },
+  {
+    "id": "NP015",
+    "lecturer_id": "GV031",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-09-21",
+    "to_date": "2026-09-24",
+    "reason": "Chăm sóc người thân ốm",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-09-16 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-15 08:15:00"
+  },
+  {
+    "id": "NP016",
+    "lecturer_id": "GV033",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-08-30",
+    "to_date": "2026-09-03",
+    "reason": "Nghỉ phép năm",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-08-28 08:15:00"
+  },
+  {
+    "id": "NP017",
+    "lecturer_id": "GV035",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-09-04",
+    "to_date": "2026-09-06",
+    "reason": "Việc gia đình",
+    "status": "Đã duyệt",
+    "history": [
+      {
+        "by": "Quản lý Nhân sự",
+        "action": "Đã duyệt",
+        "note": "",
+        "at": "2026-09-03 09:30:00"
+      }
+    ],
+    "created_at": "2026-09-02 08:15:00"
+  },
+  {
+    "id": "NP018",
+    "lecturer_id": "GV037",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-09-01",
+    "to_date": "2026-09-05",
+    "reason": "Chăm sóc người thân ốm",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản lý Nhân sự",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-08-28 09:30:00"
+      }
+    ],
+    "created_at": "2026-08-27 08:15:00"
+  },
+  {
+    "id": "NP019",
+    "lecturer_id": "GV039",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-09-18",
+    "to_date": "2026-09-21",
+    "reason": "Về quê giải quyết việc riêng",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-09-15 08:15:00"
+  },
+  {
+    "id": "NP020",
+    "lecturer_id": "GV041",
+    "type": "Nghỉ việc riêng",
+    "from_date": "2026-10-26",
+    "to_date": "2026-10-26",
+    "reason": "Chăm sóc người thân ốm",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-10-05 08:15:00"
+  },
+  {
+    "id": "NP021",
+    "lecturer_id": "GV043",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-10-30",
+    "to_date": "2026-11-02",
+    "reason": "Nghỉ phép năm",
+    "status": "Đã duyệt",
+    "history": [
+      {
+        "by": "Quản lý Nhân sự",
+        "action": "Đã duyệt",
+        "note": "",
+        "at": "2026-10-03 09:30:00"
+      }
+    ],
+    "created_at": "2026-10-02 08:15:00"
+  },
+  {
+    "id": "NP022",
+    "lecturer_id": "GV045",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-10-20",
+    "to_date": "2026-10-20",
+    "reason": "Về quê giải quyết việc riêng",
+    "status": "Từ chối",
+    "history": [
+      {
+        "by": "Quản trị viên",
+        "action": "Từ chối",
+        "note": "",
+        "at": "2026-10-06 09:30:00"
+      }
+    ],
+    "created_at": "2026-10-05 08:15:00"
+  },
+  {
+    "id": "NP023",
+    "lecturer_id": "GV047",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-09-09",
+    "to_date": "2026-09-09",
+    "reason": "Chăm sóc người thân ốm",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-09-07 08:15:00"
+  },
+  {
+    "id": "NP024",
+    "lecturer_id": "GV049",
+    "type": "Nghỉ phép năm",
+    "from_date": "2026-09-29",
+    "to_date": "2026-09-29",
+    "reason": "Nghỉ phép năm",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-09-25 08:15:00"
+  },
+  {
+    "lecturer_id": "GV001",
+    "type": "Nghỉ ốm",
+    "from_date": "2026-10-01",
+    "to_date": "2026-10-23",
+    "reason": "đi du lịch",
+    "status": "Chờ duyệt",
+    "history": [],
+    "created_at": "2026-10-13 02:12:33",
+    "id": "NP025"
+  }
+]

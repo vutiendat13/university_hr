@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Đăng nhập · {{ sys.school_name }}</title>
+<link rel="icon" href="{{ url_for('static', filename='images/logo.svg') }}">
+<script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}})()</script>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+<script>window.APP={user:null,csrf:{{ csrf|tojson }}};</script>
+</head>
+<body>
+<div class="login">
+  <section class="login-art" id="login-art">
+    <div id="scene" style="position:absolute;inset:0"></div>
+    <div class="login-brand"><img src="{{ url_for('static', filename='images/logo.svg') }}" alt="Logo Đại học Hải Phòng"><div><b>{{ sys.school_name }}</b><small>Haiphong University</small></div></div>
+    <div><h1>{{ sys.system_name }}</h1><p>Hồ sơ, hợp đồng, chấm công và đánh giá giảng viên — tập trung trong một hệ thống.</p></div>
+  </section>
+  <section class="login-form-wrap">
+    <div class="card login-card" id="login-card">
+      <h2>Đăng nhập hệ thống</h2>
+      <p class="sub">Dùng tài khoản do nhà trường cấp.</p>
+      <div class="login-msg" id="login-msg" hidden></div>
+      <form id="login-form" novalidate>
+        <div class="field"><label for="username">Tên đăng nhập</label><input id="username" name="username" autocomplete="username" autofocus required></div>
+        <div class="field"><label for="password">Mật khẩu</label>
+          <div class="pw"><input id="password" name="password" type="password" autocomplete="current-password" required style="padding-right:44px"><button type="button" class="icon-btn" id="toggle-pw" aria-label="Hiện/ẩn mật khẩu"><i class="fa-regular fa-eye"></i></button></div></div>
+        <div class="login-row"><label class="switch"><input type="checkbox" id="remember"> Ghi nhớ đăng nhập</label><a href="#" id="forgot-link">Quên mật khẩu?</a></div>
+        <button class="btn primary" id="login-btn" type="submit">Đăng nhập</button>
+      </form>
+      <div class="demo"><b>Tài khoản demo</b><br>admin / Admin@123 · manager / Manager@123 · lecturer / Lecturer@123</div>
+    </div>
+  </section>
+</div>
+<div class="toasts" id="toasts"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='js/three-scene.js') }}"></script>
+<script>
+const form=$('#login-form'), msg=$('#login-msg'), card=$('#login-card');
+CampusScene.init($('#scene'),CampusScene.DEMO,null,{ambient:true});
+anim(g=>{g.from(card,{y:24,opacity:0,duration:.6,ease:'power3.out'});g.from('.login-art h1,.login-art p',{y:16,opacity:0,stagger:.12,delay:.2,duration:.6})});
+$$('#login-form input').forEach(i=>{i.addEventListener('focus',()=>anim(g=>g.to(i,{scale:1.015,duration:.18})));i.addEventListener('blur',()=>anim(g=>g.to(i,{scale:1,duration:.18})))});
+$('#toggle-pw').onclick=()=>{const p=$('#password');p.type=p.type==='password'?'text':'password'};
+form.addEventListener('submit',async e=>{
+  e.preventDefault(); msg.hidden=true; const btn=$('#login-btn'); btn.classList.add('loading'); btn.disabled=true;
+  try{
+    const r=await api('POST','/api/auth/login',{username:$('#username').value,password:$('#password').value,remember:$('#remember').checked});
+    toast('Đăng nhập thành công','success',1200);
+    anim(g=>g.to(card,{scale:.96,opacity:0,y:-12,duration:.35}));
+    setTimeout(()=>location.href=r.redirect,380);
+  }catch(err){
+    msg.textContent=err.message; msg.hidden=false; card.classList.remove('shake'); void card.offsetWidth; card.classList.add('shake');
+    btn.classList.remove('loading'); btn.disabled=false;
+  }
+});
+$('#forgot-link').onclick=async e=>{
+  e.preventDefault();
+  FormModal.open({title:'Quên mật khẩu',size:'sm',submitLabel:'Gửi yêu cầu',fields:[{name:'username',label:'Tên đăng nhập',required:true,col:12}],
+    onSubmit:async d=>{const r=await api('POST','/api/auth/forgot',d);toast(r.message,'success',5000);return r}});
+};
+</script>
+</body>
+</html>

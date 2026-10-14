@@ -1,0 +1,32 @@
+[
+  {
+    "id": "U001",
+    "username": "admin",
+    "password_hash": "scrypt:32768:8:1$fzgssxW1c6gTYKX3$b778907db9539c6d83f6b7a22945b73109f6e491299fdad0307c4762d2b057906d63b0523cae4d2e5a331d36e12b4a4a18da3dc5cc7cb5f26a9ba58333d589ca",
+    "full_name": "Quản trị viên",
+    "role": "ADMIN",
+    "email": "admin@dhhp.demo",
+    "lecturer_id": "",
+    "active": true
+  },
+  {
+    "id": "U002",
+    "username": "manager",
+    "password_hash": "scrypt:32768:8:1$zOLvnwEyWzlW35Zr$dce1161239dda889a03db9bb1dfbea85cf89c2fe95a35f1b9f229268903b8cf241d6b98a2fb099ac9f83706dadc59c20e7dd5a8ecc93cf4b43420dede42b06a8",
+    "full_name": "Quản lý Nhân sự",
+    "role": "MANAGER",
+    "email": "manager@dhhp.demo",
+    "lecturer_id": "",
+    "active": true
+  },
+  {
+    "id": "U003",
+    "username": "lecturer",
+    "password_hash": "scrypt:32768:8:1$2S6S3Nhso9F2H1ir$feb63320f7d9a65f6a5d0d9ae9157ef656d0bea3e6fc24e686671ccbf58c3f7c956e70da9345fe983429ea6f14af47eeb84947fef8ae49d100d19ff0d2fc5a03",
+    "full_name": "Nguyễn Văn An",
+    "role": "LECTURER",
+    "email": "an.gv001@dhhp.demo",
+    "lecturer_id": "GV001",
+    "active": true
+  }
+]

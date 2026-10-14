@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% block content %}
+{% set admin = user.role == 'ADMIN' %}{% set staff = user.role in ('ADMIN','MANAGER') %}
+<div class="page-head"><div><h1>Cài đặt</h1><p class="sub">Giao diện, thông báo, tài khoản và dữ liệu hệ thống.</p></div></div>
+<div class="tabs" id="set-tabs" role="tablist">
+  {% if staff %}<button class="tab on" data-p="sys">Thông tin hệ thống</button>{% endif %}
+  <button class="tab {{ '' if staff else 'on' }}" data-p="ui">Giao diện</button>
+  <button class="tab" data-p="noti">Thông báo</button>
+  <button class="tab" data-p="me">Tài khoản của tôi</button>
+  {% if admin %}<button class="tab" data-p="users">Quản lý tài khoản</button><button class="tab" data-p="backup">Sao lưu &amp; khôi phục</button>{% endif %}
+</div>
+
+{% if staff %}
+<section data-panel="sys" class="stack">
+  <div class="card card-pad"><h3 style="margin-bottom:14px">Thông tin hệ thống</h3><div id="sys-info"><div class="skeleton" style="height:120px"></div></div></div>
+  <div class="card card-pad"><h3 style="margin-bottom:14px">Cấu hình {% if not admin %}<small class="muted">(chỉ Admin được thay đổi)</small>{% endif %}</h3>
+    <form id="sys-form" class="form-grid" novalidate>
+      <div class="field col-6" data-name="system_name"><label>Tên hệ thống</label><input name="system_name" {{ '' if admin else 'disabled' }}><small class="err"></small></div>
+      <div class="field col-6" data-name="school_name"><label>Tên trường</label><input name="school_name" {{ '' if admin else 'disabled' }}><small class="err"></small></div>
+      <div class="field col-4" data-name="contract_warning_days"><label>Cảnh báo hợp đồng trước (ngày)</label><input name="contract_warning_days" type="number" min="1" max="365" {{ '' if admin else 'disabled' }}><small class="err"></small></div>
+      <div class="field col-4" data-name="work_start"><label>Giờ bắt đầu làm việc (quá giờ = đi muộn)</label><input name="work_start" type="time" {{ '' if admin else 'disabled' }}><small class="err"></small></div>
+      <div class="field col-4" data-name="work_end"><label>Giờ kết thúc</label><input name="work_end" type="time" {{ '' if admin else 'disabled' }}><small class="err"></small></div>
+      {% if admin %}<div class="col-12"><button class="btn primary" type="submit">Lưu cấu hình</button></div>{% endif %}
+    </form></div>
+</section>
+{% endif %}
+
+<section data-panel="ui" class="card card-pad stack" {{ 'hidden' if staff }}>
+  <h3>Giao diện</h3>
+  <label class="switch"><input type="checkbox" id="dark-sw"> Chế độ tối (Dark mode)</label>
+  <div class="field" style="max-width:280px"><label>Ngôn ngữ</label><select id="lang-sel"><option value="vi">Tiếng Việt</option><option value="en">English (menu)</option></select>
+    <small class="muted">Bản tiếng Anh hiện áp dụng cho thanh điều hướng.</small></div>
+</section>
+
+<section data-panel="noti" class="card card-pad stack" hidden>
+  <h3>Thông báo</h3>
+  <label class="switch"><input type="checkbox" id="toast-sw"> Hiện cửa sổ nhắc khi có thông báo mới</label>
+  <div><button class="btn ghost" id="noti-readall"><i class="fa-solid fa-check-double"></i> Đánh dấu đã đọc tất cả</button> <a class="btn ghost" href="/notifications" style="text-decoration:none">Xem tất cả thông báo</a></div>
+</section>
+
+<section data-panel="me" class="card card-pad" hidden style="max-width:560px">
+  <h3 style="margin-bottom:14px">Tài khoản của tôi</h3>
+  <dl class="kv" style="margin-bottom:20px"><div><dt>Tên đăng nhập</dt><dd>{{ user.username }}</dd></div><div><dt>Họ tên</dt><dd>{{ user.full_name }}</dd></div><div><dt>Vai trò</dt><dd>{{ user.role }}</dd></div></dl>
+  <h4 style="margin-bottom:10px">Đổi mật khẩu</h4>
+  <form id="pw-form" class="stack" novalidate>
+    <div class="field" data-name="current"><label>Mật khẩu hiện tại</label><input type="password" name="current" autocomplete="current-password"><small class="err"></small></div>
+    <div class="field" data-name="new"><label>Mật khẩu mới</label><input type="password" name="new" autocomplete="new-password"><small class="muted">Tối thiểu 8 ký tự, gồm chữ hoa, chữ thường và số</small><small class="err"></small></div>
+    <div class="field" data-name="confirm"><label>Nhập lại mật khẩu mới</label><input type="password" name="confirm" autocomplete="new-password"><small class="err"></small></div>
+    <div><button class="btn primary" type="submit">Đổi mật khẩu</button></div>
+  </form>
+</section>
+
+{% if admin %}
+<section data-panel="users" hidden><div class="card card-pad"><div id="users-crud"></div></div></section>
+<section data-panel="backup" hidden class="stack">
+  <div class="card card-pad stack"><h3>Sao lưu &amp; khôi phục</h3>
+    <p class="muted" style="margin:0">Sao lưu sao chép toàn bộ thư mục <code>data/</code> vào <code>backup/YYYY-MM-DD_HH-MM-SS/</code>. Khi khôi phục, hệ thống tự sao lưu trạng thái hiện tại trước.</p>
+    <div class="row"><button class="btn primary" id="bk-now"><i class="fa-solid fa-database"></i> Sao lưu dữ liệu</button>
+      <a class="btn ghost" href="/api/system/export" style="text-decoration:none"><i class="fa-solid fa-file-export"></i> Export JSON</a>
+      <button class="btn ghost" id="imp-btn"><i class="fa-solid fa-file-import"></i> Import JSON</button><input type="file" id="imp-file" accept="application/json,.json" hidden></div></div>
+  <div class="card"><div id="bk-list"><div class="skeleton" style="height:100px;margin:16px"></div></div></div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/crud.js') }}"></script>
+<script src="{{ url_for('static', filename='js/pages.js') }}"></script>
+<script>
+(function(){
+  const role=APP.user.role, admin=role==='ADMIN', staff=isStaff();
+  // ---- chuyển tab
+  const tabs=$$('#set-tabs .tab'), show=p=>{ tabs.forEach(t=>t.classList.toggle('on',t.dataset.p===p)); $$('[data-panel]').forEach(s=>{ const on=s.dataset.panel===p; s.hidden=!on; if(on) anim(g=>g.from(s,{opacity:0,y:8,duration:.25})); }); history.replaceState(null,'','#'+p); if(p==='users'&&!window._u){window._u=1;Pages.mount('users','#users-crud');} };
+  tabs.forEach(t=>t.onclick=()=>show(t.dataset.p));
+  const fromHash=()=>tabs.find(t=>t.dataset.p===location.hash.slice(1))?.dataset.p||tabs[0].dataset.p;
+  show(fromHash()); window.addEventListener('hashchange',()=>show(fromHash()));
+
+  // ---- giao diện + thông báo (lưu localStorage)
+  const dark=$('#dark-sw'); dark.checked=Theme.get()==='dark'; dark.onchange=()=>Theme.set(dark.checked?'dark':'light');
+  const lang=$('#lang-sel'); lang.value=localStorage.getItem('lang')||'vi'; lang.onchange=()=>{localStorage.setItem('lang',lang.value);applyLang();toast('Đã đổi ngôn ngữ');};
+  const ts=$('#toast-sw'); ts.checked=localStorage.getItem('toastNotif')!=='0'; ts.onchange=()=>{localStorage.setItem('toastNotif',ts.checked?'1':'0');toast(ts.checked?'Đã bật nhắc thông báo':'Đã tắt nhắc thông báo');};
+  $('#noti-readall').onclick=()=>Notif.markAll();
+
+  // ---- đổi mật khẩu
+  $('#pw-form').addEventListener('submit',async e=>{
+    e.preventDefault(); const f=e.target, v=Object.fromEntries(new FormData(f));
+    if(v.new!==v.confirm) return showErrors(f,{confirm:'Mật khẩu nhập lại không khớp'});
+    try{ await api('POST','/api/auth/change-password',{current:v.current,new:v.new}); showErrors(f,{}); f.reset(); toast('Đổi mật khẩu thành công'); }
+    catch(err){ showErrors(f,err.errors); toast(err.message,'error'); }
+  });
+
+  // ---- thông tin hệ thống + cấu hình
+  if(staff){
+    const sf=$('#sys-form');
+    async function loadSys(){
+      const d=await api('GET','/api/system/info'), s=d.settings;
+      $('#sys-info').innerHTML=`<dl class="kv"><div><dt>Trường</dt><dd>${esc(s.school_name)}</dd></div><div><dt>Phiên bản</dt><dd>${esc(s.version)}</dd></div><div><dt>Lưu trữ</dt><dd>${esc(d.storage)}</dd></div><div><dt>Dung lượng dữ liệu</dt><dd>${(d.data_size/1024).toFixed(1)} KB</dd></div></dl>
+        <div class="row" style="margin-top:16px;gap:8px">${Object.entries(d.counts).map(([k,n])=>`<span class="badge blue">${esc(k)}: ${n}</span>`).join('')}</div>`;
+      Object.entries(s).forEach(([k,v])=>{ if(sf.elements[k]) sf.elements[k].value=v; });
+    }
+    loadSys().catch(e=>toast(e.message,'error'));
+    sf.addEventListener('submit',async e=>{ e.preventDefault(); const v=Object.fromEntries(new FormData(sf));
+      try{ await api('PUT','/api/system/settings',v); showErrors(sf,{}); toast('Lưu cấu hình thành công'); loadSys(); } catch(err){ showErrors(sf,err.errors); toast(err.message,'error'); } });
+  }
+
+  // ---- sao lưu / khôi phục / import
+  if(admin){
+    const list=$('#bk-list'), fmtSize=b=>b>1048576?(b/1048576).toFixed(1)+' MB':(b/1024).toFixed(1)+' KB';
+    async function loadBk(){
+      const d=await api('GET','/api/system/backups');
+      list.innerHTML=d.items.length?`<div class="table-wrap" style="border:0"><table class="table"><thead><tr><th>Bản sao lưu</th><th>Số file</th><th>Dung lượng</th><th style="text-align:right">Thao tác</th></tr></thead><tbody>${d.items.map(b=>`<tr><td data-label="Bản sao lưu"><b>${esc(b.name)}</b></td><td data-label="Số file">${b.files}</td><td data-label="Dung lượng">${fmtSize(b.size)}</td>
+        <td class="row-actions"><button class="btn sm ghost" data-restore="${esc(b.name)}"><i class="fa-solid fa-rotate-left"></i> Khôi phục</button> <button class="icon-btn del" data-bdel="${esc(b.name)}" title="Xóa" aria-label="Xóa bản sao lưu"><i class="fa-solid fa-trash"></i></button></td></tr>`).join('')}</tbody></table></div>`:'<div class="empty"><i class="fa-solid fa-database"></i>Chưa có bản sao lưu nào.</div>';
+    }
+    loadBk().catch(e=>toast(e.message,'error'));
+    $('#bk-now').onclick=async()=>{ try{ const r=await api('POST','/api/system/backup'); toast('Sao lưu thành công: '+r.name); loadBk(); }catch(e){ toast(e.message,'error'); } };
+    list.addEventListener('click',async e=>{
+      const r=e.target.closest('[data-restore]'), d=e.target.closest('[data-bdel]');
+      if(r){ if(!await Modal.confirm({title:'Khôi phục dữ liệu?',message:`Toàn bộ dữ liệu hiện tại sẽ được thay bằng bản <b>${esc(r.dataset.restore)}</b>. Hệ thống tự sao lưu trạng thái hiện tại trước khi khôi phục.`,confirm:'Khôi phục',danger:true})) return;
+        try{ await api('POST','/api/system/restore',{name:r.dataset.restore}); toast('Khôi phục dữ liệu thành công'); setTimeout(()=>location.reload(),1200); }catch(err){ toast(err.message,'error'); } }
+      if(d){ if(!await Modal.confirm({title:'Xóa bản sao lưu?',message:`Xóa <b>${esc(d.dataset.bdel)}</b>?`,confirm:'Xóa',danger:true})) return;
+        try{ await api('DELETE','/api/system/backups/'+encodeURIComponent(d.dataset.bdel)); toast('Đã xóa bản sao lưu'); loadBk(); }catch(err){ toast(err.message,'error'); } }
+    });
+    $('#imp-btn').onclick=()=>$('#imp-file').click();
+    $('#imp-file').onchange=async e=>{
+      const f=e.target.files[0]; if(!f) return;
+      if(!await Modal.confirm({title:'Import dữ liệu?',message:`Dữ liệu trong <b>${esc(f.name)}</b> sẽ ghi đè các bảng tương ứng. Hệ thống tự sao lưu trước khi import.`,confirm:'Import',danger:true})){ e.target.value=''; return; }
+      const fd=new FormData(); fd.append('file',f);
+      try{ await api('POST','/api/system/import',fd); toast('Import dữ liệu thành công'); setTimeout(()=>location.reload(),1200); }catch(err){ toast(err.message,'error'); }
+      e.target.value='';
+    };
+  }
+})();
+</script>
+{% endblock %}

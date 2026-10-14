@@ -1,0 +1,1460 @@
+[
+  {
+    "id": "CC00001",
+    "lecturer_id": "GV001",
+    "date": "2026-10-08",
+    "check_in": "07:13",
+    "check_out": "17:35",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00002",
+    "lecturer_id": "GV001",
+    "date": "2026-10-07",
+    "check_in": "07:21",
+    "check_out": "16:10",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00003",
+    "lecturer_id": "GV001",
+    "date": "2026-10-06",
+    "check_in": "07:17",
+    "check_out": "16:32",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00004",
+    "lecturer_id": "GV001",
+    "date": "2026-10-05",
+    "check_in": "07:12",
+    "check_out": "17:41",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00005",
+    "lecturer_id": "GV001",
+    "date": "2026-10-02",
+    "check_in": "07:14",
+    "check_out": "16:01",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00006",
+    "lecturer_id": "GV001",
+    "date": "2026-10-01",
+    "check_in": "07:23",
+    "check_out": "16:36",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00007",
+    "lecturer_id": "GV001",
+    "date": "2026-09-30",
+    "check_in": "07:50",
+    "check_out": "16:51",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00008",
+    "lecturer_id": "GV001",
+    "date": "2026-09-29",
+    "check_in": "07:05",
+    "check_out": "17:35",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00009",
+    "lecturer_id": "GV002",
+    "date": "2026-10-08",
+    "check_in": "07:00",
+    "check_out": "17:05",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00010",
+    "lecturer_id": "GV002",
+    "date": "2026-10-07",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00011",
+    "lecturer_id": "GV002",
+    "date": "2026-10-06",
+    "check_in": "07:13",
+    "check_out": "17:32",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00012",
+    "lecturer_id": "GV002",
+    "date": "2026-10-05",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00013",
+    "lecturer_id": "GV002",
+    "date": "2026-10-02",
+    "check_in": "07:21",
+    "check_out": "16:41",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00014",
+    "lecturer_id": "GV002",
+    "date": "2026-10-01",
+    "check_in": "07:03",
+    "check_out": "17:56",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00015",
+    "lecturer_id": "GV002",
+    "date": "2026-09-30",
+    "check_in": "07:09",
+    "check_out": "16:19",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00016",
+    "lecturer_id": "GV002",
+    "date": "2026-09-29",
+    "check_in": "07:00",
+    "check_out": "16:21",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00017",
+    "lecturer_id": "GV003",
+    "date": "2026-10-08",
+    "check_in": "",
+    "check_out": "",
+    "status": "Vắng",
+    "note": "Không báo trước"
+  },
+  {
+    "id": "CC00018",
+    "lecturer_id": "GV003",
+    "date": "2026-10-07",
+    "check_in": "07:14",
+    "check_out": "16:15",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00019",
+    "lecturer_id": "GV003",
+    "date": "2026-10-06",
+    "check_in": "07:24",
+    "check_out": "16:38",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00020",
+    "lecturer_id": "GV003",
+    "date": "2026-10-05",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00021",
+    "lecturer_id": "GV003",
+    "date": "2026-10-02",
+    "check_in": "",
+    "check_out": "",
+    "status": "Vắng",
+    "note": "Không báo trước"
+  },
+  {
+    "id": "CC00022",
+    "lecturer_id": "GV003",
+    "date": "2026-10-01",
+    "check_in": "07:02",
+    "check_out": "16:00",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00023",
+    "lecturer_id": "GV003",
+    "date": "2026-09-30",
+    "check_in": "07:09",
+    "check_out": "16:26",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00024",
+    "lecturer_id": "GV003",
+    "date": "2026-09-29",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00025",
+    "lecturer_id": "GV004",
+    "date": "2026-10-08",
+    "check_in": "07:19",
+    "check_out": "17:09",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00026",
+    "lecturer_id": "GV004",
+    "date": "2026-10-07",
+    "check_in": "07:20",
+    "check_out": "16:28",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00027",
+    "lecturer_id": "GV004",
+    "date": "2026-10-06",
+    "check_in": "07:03",
+    "check_out": "16:53",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00028",
+    "lecturer_id": "GV004",
+    "date": "2026-10-05",
+    "check_in": "07:25",
+    "check_out": "16:54",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00029",
+    "lecturer_id": "GV004",
+    "date": "2026-10-02",
+    "check_in": "07:08",
+    "check_out": "17:49",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00030",
+    "lecturer_id": "GV004",
+    "date": "2026-10-01",
+    "check_in": "07:26",
+    "check_out": "17:16",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00031",
+    "lecturer_id": "GV004",
+    "date": "2026-09-30",
+    "check_in": "07:19",
+    "check_out": "17:30",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00032",
+    "lecturer_id": "GV004",
+    "date": "2026-09-29",
+    "check_in": "07:10",
+    "check_out": "16:06",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00033",
+    "lecturer_id": "GV005",
+    "date": "2026-10-08",
+    "check_in": "07:00",
+    "check_out": "16:13",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00034",
+    "lecturer_id": "GV005",
+    "date": "2026-10-07",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00035",
+    "lecturer_id": "GV005",
+    "date": "2026-10-06",
+    "check_in": "07:24",
+    "check_out": "17:14",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00036",
+    "lecturer_id": "GV005",
+    "date": "2026-10-05",
+    "check_in": "08:40",
+    "check_out": "16:37",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00037",
+    "lecturer_id": "GV005",
+    "date": "2026-10-02",
+    "check_in": "07:19",
+    "check_out": "17:41",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00038",
+    "lecturer_id": "GV005",
+    "date": "2026-10-01",
+    "check_in": "07:06",
+    "check_out": "17:58",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00039",
+    "lecturer_id": "GV005",
+    "date": "2026-09-30",
+    "check_in": "07:12",
+    "check_out": "17:22",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00040",
+    "lecturer_id": "GV005",
+    "date": "2026-09-29",
+    "check_in": "08:42",
+    "check_out": "16:46",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00041",
+    "lecturer_id": "GV006",
+    "date": "2026-10-08",
+    "check_in": "07:23",
+    "check_out": "16:19",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00042",
+    "lecturer_id": "GV006",
+    "date": "2026-10-07",
+    "check_in": "07:13",
+    "check_out": "16:28",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00043",
+    "lecturer_id": "GV006",
+    "date": "2026-10-06",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00044",
+    "lecturer_id": "GV006",
+    "date": "2026-10-05",
+    "check_in": "07:21",
+    "check_out": "16:39",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00045",
+    "lecturer_id": "GV006",
+    "date": "2026-10-02",
+    "check_in": "07:01",
+    "check_out": "17:35",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00046",
+    "lecturer_id": "GV006",
+    "date": "2026-10-01",
+    "check_in": "07:13",
+    "check_out": "16:44",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00047",
+    "lecturer_id": "GV006",
+    "date": "2026-09-30",
+    "check_in": "07:17",
+    "check_out": "17:51",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00048",
+    "lecturer_id": "GV006",
+    "date": "2026-09-29",
+    "check_in": "07:19",
+    "check_out": "17:53",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00049",
+    "lecturer_id": "GV007",
+    "date": "2026-10-08",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00050",
+    "lecturer_id": "GV007",
+    "date": "2026-10-07",
+    "check_in": "07:16",
+    "check_out": "16:00",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00051",
+    "lecturer_id": "GV007",
+    "date": "2026-10-06",
+    "check_in": "07:13",
+    "check_out": "17:39",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00052",
+    "lecturer_id": "GV007",
+    "date": "2026-10-05",
+    "check_in": "08:42",
+    "check_out": "17:41",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00053",
+    "lecturer_id": "GV007",
+    "date": "2026-10-02",
+    "check_in": "07:38",
+    "check_out": "16:36",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00054",
+    "lecturer_id": "GV007",
+    "date": "2026-10-01",
+    "check_in": "07:19",
+    "check_out": "17:30",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00055",
+    "lecturer_id": "GV007",
+    "date": "2026-09-30",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00056",
+    "lecturer_id": "GV007",
+    "date": "2026-09-29",
+    "check_in": "07:16",
+    "check_out": "16:23",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00057",
+    "lecturer_id": "GV008",
+    "date": "2026-10-08",
+    "check_in": "07:02",
+    "check_out": "16:07",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00058",
+    "lecturer_id": "GV008",
+    "date": "2026-10-07",
+    "check_in": "07:03",
+    "check_out": "17:38",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00059",
+    "lecturer_id": "GV008",
+    "date": "2026-10-06",
+    "check_in": "07:16",
+    "check_out": "16:26",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00060",
+    "lecturer_id": "GV008",
+    "date": "2026-10-05",
+    "check_in": "07:09",
+    "check_out": "16:06",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00061",
+    "lecturer_id": "GV008",
+    "date": "2026-10-02",
+    "check_in": "08:56",
+    "check_out": "16:44",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00062",
+    "lecturer_id": "GV008",
+    "date": "2026-10-01",
+    "check_in": "07:03",
+    "check_out": "16:52",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00063",
+    "lecturer_id": "GV008",
+    "date": "2026-09-30",
+    "check_in": "08:45",
+    "check_out": "16:33",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00064",
+    "lecturer_id": "GV008",
+    "date": "2026-09-29",
+    "check_in": "07:07",
+    "check_out": "16:28",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00065",
+    "lecturer_id": "GV009",
+    "date": "2026-10-08",
+    "check_in": "07:27",
+    "check_out": "16:58",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00066",
+    "lecturer_id": "GV009",
+    "date": "2026-10-07",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00067",
+    "lecturer_id": "GV009",
+    "date": "2026-10-06",
+    "check_in": "07:13",
+    "check_out": "16:05",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00068",
+    "lecturer_id": "GV009",
+    "date": "2026-10-05",
+    "check_in": "07:14",
+    "check_out": "17:56",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00069",
+    "lecturer_id": "GV009",
+    "date": "2026-10-02",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00070",
+    "lecturer_id": "GV009",
+    "date": "2026-10-01",
+    "check_in": "07:01",
+    "check_out": "17:30",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00071",
+    "lecturer_id": "GV009",
+    "date": "2026-09-30",
+    "check_in": "07:03",
+    "check_out": "16:26",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00072",
+    "lecturer_id": "GV009",
+    "date": "2026-09-29",
+    "check_in": "07:20",
+    "check_out": "16:16",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00073",
+    "lecturer_id": "GV010",
+    "date": "2026-10-08",
+    "check_in": "07:16",
+    "check_out": "16:27",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00074",
+    "lecturer_id": "GV010",
+    "date": "2026-10-07",
+    "check_in": "07:05",
+    "check_out": "16:54",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00075",
+    "lecturer_id": "GV010",
+    "date": "2026-10-06",
+    "check_in": "07:19",
+    "check_out": "17:16",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00076",
+    "lecturer_id": "GV010",
+    "date": "2026-10-05",
+    "check_in": "07:13",
+    "check_out": "16:44",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00077",
+    "lecturer_id": "GV010",
+    "date": "2026-10-02",
+    "check_in": "07:29",
+    "check_out": "16:26",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00078",
+    "lecturer_id": "GV010",
+    "date": "2026-10-01",
+    "check_in": "07:53",
+    "check_out": "17:40",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00079",
+    "lecturer_id": "GV010",
+    "date": "2026-09-30",
+    "check_in": "07:19",
+    "check_out": "17:14",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00080",
+    "lecturer_id": "GV010",
+    "date": "2026-09-29",
+    "check_in": "07:19",
+    "check_out": "16:33",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00081",
+    "lecturer_id": "GV011",
+    "date": "2026-10-08",
+    "check_in": "07:01",
+    "check_out": "17:33",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00082",
+    "lecturer_id": "GV011",
+    "date": "2026-10-07",
+    "check_in": "07:13",
+    "check_out": "17:13",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00083",
+    "lecturer_id": "GV011",
+    "date": "2026-10-06",
+    "check_in": "07:24",
+    "check_out": "17:10",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00084",
+    "lecturer_id": "GV011",
+    "date": "2026-10-05",
+    "check_in": "07:16",
+    "check_out": "17:16",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00085",
+    "lecturer_id": "GV011",
+    "date": "2026-10-02",
+    "check_in": "07:27",
+    "check_out": "16:00",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00086",
+    "lecturer_id": "GV011",
+    "date": "2026-10-01",
+    "check_in": "",
+    "check_out": "",
+    "status": "Vắng",
+    "note": "Không báo trước"
+  },
+  {
+    "id": "CC00087",
+    "lecturer_id": "GV011",
+    "date": "2026-09-30",
+    "check_in": "07:10",
+    "check_out": "17:46",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00088",
+    "lecturer_id": "GV011",
+    "date": "2026-09-29",
+    "check_in": "",
+    "check_out": "",
+    "status": "Vắng",
+    "note": "Không báo trước"
+  },
+  {
+    "id": "CC00089",
+    "lecturer_id": "GV012",
+    "date": "2026-10-08",
+    "check_in": "07:21",
+    "check_out": "17:25",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00090",
+    "lecturer_id": "GV012",
+    "date": "2026-10-07",
+    "check_in": "07:19",
+    "check_out": "17:38",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00091",
+    "lecturer_id": "GV012",
+    "date": "2026-10-06",
+    "check_in": "07:03",
+    "check_out": "17:55",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00092",
+    "lecturer_id": "GV012",
+    "date": "2026-10-05",
+    "check_in": "08:59",
+    "check_out": "17:48",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00093",
+    "lecturer_id": "GV012",
+    "date": "2026-10-02",
+    "check_in": "07:12",
+    "check_out": "17:00",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00094",
+    "lecturer_id": "GV012",
+    "date": "2026-10-01",
+    "check_in": "07:12",
+    "check_out": "17:50",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00095",
+    "lecturer_id": "GV012",
+    "date": "2026-09-30",
+    "check_in": "07:15",
+    "check_out": "16:23",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00096",
+    "lecturer_id": "GV012",
+    "date": "2026-09-29",
+    "check_in": "07:01",
+    "check_out": "16:55",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00097",
+    "lecturer_id": "GV013",
+    "date": "2026-10-08",
+    "check_in": "07:17",
+    "check_out": "16:07",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00098",
+    "lecturer_id": "GV013",
+    "date": "2026-10-07",
+    "check_in": "07:13",
+    "check_out": "17:24",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00099",
+    "lecturer_id": "GV013",
+    "date": "2026-10-06",
+    "check_in": "07:27",
+    "check_out": "17:00",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00100",
+    "lecturer_id": "GV013",
+    "date": "2026-10-05",
+    "check_in": "07:01",
+    "check_out": "16:14",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00101",
+    "lecturer_id": "GV013",
+    "date": "2026-10-02",
+    "check_in": "07:22",
+    "check_out": "17:59",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00102",
+    "lecturer_id": "GV013",
+    "date": "2026-10-01",
+    "check_in": "08:38",
+    "check_out": "16:39",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00103",
+    "lecturer_id": "GV013",
+    "date": "2026-09-30",
+    "check_in": "07:27",
+    "check_out": "17:14",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00104",
+    "lecturer_id": "GV013",
+    "date": "2026-09-29",
+    "check_in": "07:02",
+    "check_out": "16:50",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00105",
+    "lecturer_id": "GV014",
+    "date": "2026-10-08",
+    "check_in": "07:18",
+    "check_out": "17:02",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00106",
+    "lecturer_id": "GV014",
+    "date": "2026-10-07",
+    "check_in": "07:26",
+    "check_out": "16:48",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00107",
+    "lecturer_id": "GV014",
+    "date": "2026-10-06",
+    "check_in": "07:09",
+    "check_out": "17:59",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00108",
+    "lecturer_id": "GV014",
+    "date": "2026-10-05",
+    "check_in": "07:21",
+    "check_out": "17:12",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00109",
+    "lecturer_id": "GV014",
+    "date": "2026-10-02",
+    "check_in": "",
+    "check_out": "",
+    "status": "Vắng",
+    "note": "Không báo trước"
+  },
+  {
+    "id": "CC00110",
+    "lecturer_id": "GV014",
+    "date": "2026-10-01",
+    "check_in": "07:04",
+    "check_out": "17:40",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00111",
+    "lecturer_id": "GV014",
+    "date": "2026-09-30",
+    "check_in": "",
+    "check_out": "",
+    "status": "Vắng",
+    "note": "Không báo trước"
+  },
+  {
+    "id": "CC00112",
+    "lecturer_id": "GV014",
+    "date": "2026-09-29",
+    "check_in": "07:19",
+    "check_out": "17:45",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00113",
+    "lecturer_id": "GV015",
+    "date": "2026-10-08",
+    "check_in": "07:14",
+    "check_out": "17:52",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00114",
+    "lecturer_id": "GV015",
+    "date": "2026-10-07",
+    "check_in": "07:20",
+    "check_out": "16:50",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00115",
+    "lecturer_id": "GV015",
+    "date": "2026-10-06",
+    "check_in": "07:24",
+    "check_out": "16:50",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00116",
+    "lecturer_id": "GV015",
+    "date": "2026-10-05",
+    "check_in": "07:06",
+    "check_out": "17:47",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00117",
+    "lecturer_id": "GV015",
+    "date": "2026-10-02",
+    "check_in": "07:19",
+    "check_out": "16:13",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00118",
+    "lecturer_id": "GV015",
+    "date": "2026-10-01",
+    "check_in": "07:24",
+    "check_out": "17:01",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00119",
+    "lecturer_id": "GV015",
+    "date": "2026-09-30",
+    "check_in": "07:49",
+    "check_out": "17:32",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00120",
+    "lecturer_id": "GV015",
+    "date": "2026-09-29",
+    "check_in": "07:02",
+    "check_out": "16:23",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00121",
+    "lecturer_id": "GV016",
+    "date": "2026-10-08",
+    "check_in": "07:02",
+    "check_out": "17:35",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00122",
+    "lecturer_id": "GV016",
+    "date": "2026-10-07",
+    "check_in": "07:10",
+    "check_out": "17:05",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00123",
+    "lecturer_id": "GV016",
+    "date": "2026-10-06",
+    "check_in": "07:17",
+    "check_out": "16:52",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00124",
+    "lecturer_id": "GV016",
+    "date": "2026-10-05",
+    "check_in": "07:22",
+    "check_out": "16:29",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00125",
+    "lecturer_id": "GV016",
+    "date": "2026-10-02",
+    "check_in": "07:25",
+    "check_out": "16:10",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00126",
+    "lecturer_id": "GV016",
+    "date": "2026-10-01",
+    "check_in": "07:17",
+    "check_out": "17:43",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00127",
+    "lecturer_id": "GV016",
+    "date": "2026-09-30",
+    "check_in": "07:08",
+    "check_out": "17:23",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00128",
+    "lecturer_id": "GV016",
+    "date": "2026-09-29",
+    "check_in": "07:24",
+    "check_out": "16:23",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00129",
+    "lecturer_id": "GV017",
+    "date": "2026-10-08",
+    "check_in": "07:29",
+    "check_out": "16:39",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00130",
+    "lecturer_id": "GV017",
+    "date": "2026-10-07",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00131",
+    "lecturer_id": "GV017",
+    "date": "2026-10-06",
+    "check_in": "07:25",
+    "check_out": "16:35",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00132",
+    "lecturer_id": "GV017",
+    "date": "2026-10-05",
+    "check_in": "07:29",
+    "check_out": "16:46",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00133",
+    "lecturer_id": "GV017",
+    "date": "2026-10-02",
+    "check_in": "07:20",
+    "check_out": "16:58",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00134",
+    "lecturer_id": "GV017",
+    "date": "2026-10-01",
+    "check_in": "07:08",
+    "check_out": "17:25",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00135",
+    "lecturer_id": "GV017",
+    "date": "2026-09-30",
+    "check_in": "07:41",
+    "check_out": "17:33",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00136",
+    "lecturer_id": "GV017",
+    "date": "2026-09-29",
+    "check_in": "07:21",
+    "check_out": "17:04",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00137",
+    "lecturer_id": "GV018",
+    "date": "2026-10-08",
+    "check_in": "07:09",
+    "check_out": "17:08",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00138",
+    "lecturer_id": "GV018",
+    "date": "2026-10-07",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00139",
+    "lecturer_id": "GV018",
+    "date": "2026-10-06",
+    "check_in": "07:26",
+    "check_out": "16:59",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00140",
+    "lecturer_id": "GV018",
+    "date": "2026-10-05",
+    "check_in": "07:24",
+    "check_out": "17:05",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00141",
+    "lecturer_id": "GV018",
+    "date": "2026-10-02",
+    "check_in": "07:52",
+    "check_out": "16:30",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00142",
+    "lecturer_id": "GV018",
+    "date": "2026-10-01",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00143",
+    "lecturer_id": "GV018",
+    "date": "2026-09-30",
+    "check_in": "07:20",
+    "check_out": "17:06",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00144",
+    "lecturer_id": "GV018",
+    "date": "2026-09-29",
+    "check_in": "07:16",
+    "check_out": "17:43",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00145",
+    "lecturer_id": "GV019",
+    "date": "2026-10-08",
+    "check_in": "07:23",
+    "check_out": "16:02",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00146",
+    "lecturer_id": "GV019",
+    "date": "2026-10-07",
+    "check_in": "07:21",
+    "check_out": "17:59",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00147",
+    "lecturer_id": "GV019",
+    "date": "2026-10-06",
+    "check_in": "07:22",
+    "check_out": "17:03",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00148",
+    "lecturer_id": "GV019",
+    "date": "2026-10-05",
+    "check_in": "07:10",
+    "check_out": "17:12",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00149",
+    "lecturer_id": "GV019",
+    "date": "2026-10-02",
+    "check_in": "07:08",
+    "check_out": "17:51",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00150",
+    "lecturer_id": "GV019",
+    "date": "2026-10-01",
+    "check_in": "07:27",
+    "check_out": "16:40",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00151",
+    "lecturer_id": "GV019",
+    "date": "2026-09-30",
+    "check_in": "07:24",
+    "check_out": "16:27",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00152",
+    "lecturer_id": "GV019",
+    "date": "2026-09-29",
+    "check_in": "07:21",
+    "check_out": "16:41",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00153",
+    "lecturer_id": "GV020",
+    "date": "2026-10-08",
+    "check_in": "07:15",
+    "check_out": "16:55",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00154",
+    "lecturer_id": "GV020",
+    "date": "2026-10-07",
+    "check_in": "07:12",
+    "check_out": "16:45",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00155",
+    "lecturer_id": "GV020",
+    "date": "2026-10-06",
+    "check_in": "",
+    "check_out": "",
+    "status": "Vắng",
+    "note": "Không báo trước"
+  },
+  {
+    "id": "CC00156",
+    "lecturer_id": "GV020",
+    "date": "2026-10-05",
+    "check_in": "07:43",
+    "check_out": "16:37",
+    "status": "Đi muộn",
+    "note": "Kẹt xe"
+  },
+  {
+    "id": "CC00157",
+    "lecturer_id": "GV020",
+    "date": "2026-10-02",
+    "check_in": "07:20",
+    "check_out": "16:17",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00158",
+    "lecturer_id": "GV020",
+    "date": "2026-10-01",
+    "check_in": "",
+    "check_out": "",
+    "status": "Nghỉ phép",
+    "note": "Nghỉ có đơn"
+  },
+  {
+    "id": "CC00159",
+    "lecturer_id": "GV020",
+    "date": "2026-09-30",
+    "check_in": "07:21",
+    "check_out": "16:07",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "id": "CC00160",
+    "lecturer_id": "GV020",
+    "date": "2026-09-29",
+    "check_in": "07:16",
+    "check_out": "17:22",
+    "status": "Có mặt",
+    "note": ""
+  },
+  {
+    "lecturer_id": "GV001",
+    "date": "2026-10-09",
+    "check_in": "13:58",
+    "check_out": "13:58",
+    "status": "Đi muộn",
+    "note": "Tự chấm công",
+    "id": "CC00161"
+  },
+  {
+    "lecturer_id": "GV001",
+    "date": "2026-10-13",
+    "check_in": "02:11",
+    "check_out": "",
+    "status": "Có mặt",
+    "note": "Tự chấm công",
+    "id": "CC00162"
+  }
+]

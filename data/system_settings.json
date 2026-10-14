@@ -1,0 +1,8 @@
+{
+  "system_name": "Hệ thống quản lý nhân sự giảng viên",
+  "school_name": "Trường Đại học Hải Phòng",
+  "version": "1.0.0",
+  "contract_warning_days": 60,
+  "work_start": "07:30",
+  "work_end": "17:00"
+}

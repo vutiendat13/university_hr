@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+{% set staff = user.role in ('ADMIN','MANAGER') %}
+<section class="hero" id="hero">
+  <div id="scene" style="position:absolute;inset:0"></div>
+  <div class="hero-text"><h2>Xin chào, {{ user.full_name }}</h2><p>{{ sys.school_name }} — mô hình 3D các khoa, chiều cao toà nhà tương ứng số giảng viên.</p></div>
+  <div class="hero-hint">Di chuột để xoay góc nhìn · Nhấp vào toà nhà để xem số liệu khoa</div>
+  <div class="fac-card" id="fac-card" hidden></div>
+</section>
+{% if staff %}
+<section class="stats" id="stats">{% for i in range(7) %}<div class="card stat"><div class="skeleton" style="height:90px"></div></div>{% endfor %}</section>
+<section class="charts">
+  <div class="card chart-card"><h3>Giảng viên theo khoa</h3><div class="chart-box"><canvas id="ch-faculty"></canvas></div></div>
+  <div class="card chart-card"><h3>Giới tính</h3><div class="chart-box"><canvas id="ch-gender"></canvas></div></div>
+  <div class="card chart-card"><h3>Độ tuổi</h3><div class="chart-box"><canvas id="ch-age"></canvas></div></div>
+  <div class="card chart-card"><h3>Trình độ</h3><div class="chart-box"><canvas id="ch-degree"></canvas></div></div>
+</section>
+<section class="lists">
+  <div class="card list-card"><h3>Hợp đồng sắp hết hạn <a href="/contracts" class="btn sm ghost">Xem tất cả</a></h3><div id="ls-contracts"></div></div>
+  <div class="card list-card"><h3>Đơn nghỉ phép chờ duyệt <a href="/leave" class="btn sm ghost">Xem tất cả</a></h3><div id="ls-leave"></div></div>
+  <div class="card list-card"><h3>Hoạt động gần đây {% if user.role == 'ADMIN' %}<a href="/audit-logs" class="btn sm ghost">Nhật ký</a>{% endif %}</h3><div id="ls-activity"></div></div>
+</section>
+{% else %}
+<section class="stats" id="stats">{% for i in range(4) %}<div class="card stat"><div class="skeleton" style="height:90px"></div></div>{% endfor %}</section>
+<section class="lists">
+  <div class="card list-card" style="grid-column:1/-1"><h3>Lịch làm việc tuần này <span id="checkin-box" class="row"></span></h3><div class="card-pad"><div class="week" id="week"></div></div></div>
+  <div class="card list-card"><h3>Hợp đồng của tôi</h3><div id="my-contract"></div></div>
+  <div class="card list-card"><h3>Thông báo mới <a href="/notifications" class="btn sm ghost">Xem tất cả</a></h3><div id="my-notifs"></div></div>
+</section>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="{{ url_for('static', filename='js/three-scene.js') }}"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

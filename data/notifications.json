@@ -1,0 +1,132 @@
+[
+  {
+    "id": "TB00001",
+    "user_id": "U001",
+    "type": "system",
+    "message": "Chào mừng đến với Hệ thống quản lý nhân sự giảng viên",
+    "link": "",
+    "read": false,
+    "created_at": "2026-10-09 08:00:00",
+    "key": null
+  },
+  {
+    "id": "TB00002",
+    "user_id": "U003",
+    "type": "evaluation",
+    "message": "Bạn có đánh giá mới: Năm học 2025-2026",
+    "link": "/evaluations",
+    "read": false,
+    "created_at": "2026-10-08 08:00:00",
+    "key": null
+  },
+  {
+    "id": "TB00003",
+    "user_id": "U003",
+    "type": "leave",
+    "message": "Đơn nghỉ phép của bạn đã được xử lý",
+    "link": "/leave",
+    "read": true,
+    "created_at": "2026-10-06 08:00:00",
+    "key": null
+  },
+  {
+    "id": "TB00004",
+    "user_id": "U001",
+    "type": "contract",
+    "message": "Hợp đồng GV030 (HD030) sắp hết hạn vào 22/10/2026",
+    "link": "/contracts",
+    "read": true,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD030:2026-10-22"
+  },
+  {
+    "id": "TB00005",
+    "user_id": "U002",
+    "type": "contract",
+    "message": "Hợp đồng GV030 (HD030) sắp hết hạn vào 22/10/2026",
+    "link": "/contracts",
+    "read": false,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD030:2026-10-22"
+  },
+  {
+    "id": "TB00006",
+    "user_id": "U001",
+    "type": "contract",
+    "message": "Hợp đồng GV034 (HD034) sắp hết hạn vào 25/11/2026",
+    "link": "/contracts",
+    "read": false,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD034:2026-11-25"
+  },
+  {
+    "id": "TB00007",
+    "user_id": "U002",
+    "type": "contract",
+    "message": "Hợp đồng GV034 (HD034) sắp hết hạn vào 25/11/2026",
+    "link": "/contracts",
+    "read": false,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD034:2026-11-25"
+  },
+  {
+    "id": "TB00008",
+    "user_id": "U001",
+    "type": "contract",
+    "message": "Hợp đồng GV039 (HD039) sắp hết hạn vào 30/11/2026",
+    "link": "/contracts",
+    "read": false,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD039:2026-11-30"
+  },
+  {
+    "id": "TB00009",
+    "user_id": "U002",
+    "type": "contract",
+    "message": "Hợp đồng GV039 (HD039) sắp hết hạn vào 30/11/2026",
+    "link": "/contracts",
+    "read": false,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD039:2026-11-30"
+  },
+  {
+    "id": "TB00010",
+    "user_id": "U001",
+    "type": "contract",
+    "message": "Hợp đồng GV051 (HD051) sắp hết hạn vào 11/11/2026",
+    "link": "/contracts",
+    "read": false,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD051:2026-11-11"
+  },
+  {
+    "id": "TB00011",
+    "user_id": "U002",
+    "type": "contract",
+    "message": "Hợp đồng GV051 (HD051) sắp hết hạn vào 11/11/2026",
+    "link": "/contracts",
+    "read": false,
+    "created_at": "2026-10-09 13:47:57",
+    "key": "exp:HD051:2026-11-11"
+  },
+  {
+    "id": "TB00012",
+    "user_id": "U001",
+    "type": "leave",
+    "message": "Có đơn nghỉ phép mới từ GV001",
+    "link": "/leave",
+    "read": false,
+    "created_at": "2026-10-13 02:12:33",
+    "key": null
+  },
+  {
+    "id": "TB00013",
+    "user_id": "U002",
+    "type": "leave",
+    "message": "Có đơn nghỉ phép mới từ GV001",
+    "link": "/leave",
+    "read": false,
+    "created_at": "2026-10-13 02:12:33",
+    "key": null
+  }
+]

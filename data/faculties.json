@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CNTT",
+    "name": "Khoa Công nghệ thông tin",
+    "dean": "Nguyễn Văn An",
+    "status": "Hoạt động",
+    "description": "Khoa Công nghệ thông tin - Trường Đại học Hải Phòng"
+  },
+  {
+    "id": "KT",
+    "name": "Khoa Kinh tế",
+    "dean": "Vũ Hữu Phong",
+    "status": "Hoạt động",
+    "description": "Khoa Kinh tế - Trường Đại học Hải Phòng"
+  },
+  {
+    "id": "NN",
+    "name": "Khoa Ngoại ngữ",
+    "dean": "Trần Đức Dũng",
+    "status": "Hoạt động",
+    "description": "Khoa Ngoại ngữ - Trường Đại học Hải Phòng"
+  },
+  {
+    "id": "DDT",
+    "name": "Khoa Điện – Điện tử",
+    "dean": "Phạm Bích Hạnh",
+    "status": "Hoạt động",
+    "description": "Khoa Điện – Điện tử - Trường Đại học Hải Phòng"
+  },
+  {
+    "id": "CK",
+    "name": "Khoa Cơ khí",
+    "dean": "Phan Xuân Hùng",
+    "status": "Hoạt động",
+    "description": "Khoa Cơ khí - Trường Đại học Hải Phòng"
+  },
+  {
+    "id": "SP",
+    "name": "Khoa Sư phạm",
+    "dean": "Nguyễn Khánh Nhung",
+    "status": "Hoạt động",
+    "description": "Khoa Sư phạm - Trường Đại học Hải Phòng"
+  }
+]

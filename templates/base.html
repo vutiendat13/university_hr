@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }} · {{ sys.school_name }}</title>
+<link rel="icon" href="{{ url_for('static', filename='images/logo.svg') }}">
+<script>(function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}})()</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+<script>window.APP={user:{{ user|tojson }},csrf:{{ csrf|tojson }},page:{{ page|tojson }}};</script>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Điều hướng chính">
+    <a class="brand" href="/dashboard"><img src="{{ url_for('static', filename='images/logo.svg') }}" alt=""><div><b>ĐH Hải Phòng</b><small data-i18n="ui.brand">Quản lý nhân sự</small></div></a>
+    <nav>
+      {% for n in nav %}
+      <a class="nav-link {{ 'active' if n.key == page }}" href="{{ n.path }}"><i class="fa-solid {{ n.icon }}"></i><span data-i18n="nav.{{ n.key }}">{{ n.label }}</span>{% if n.key == 'notifications' %}<em class="nav-badge" id="nav-unread" hidden></em>{% endif %}</a>
+      {% endfor %}
+    </nav>
+    <div class="side-user">
+      <span class="avatar" id="side-avatar"></span>
+      <div class="who"><b>{{ user.full_name }}</b><small>{{ {'ADMIN':'Quản trị viên','MANAGER':'Quản lý','LECTURER':'Giảng viên'}[user.role] }}</small></div>
+      <button class="icon-btn" id="logout-btn" title="Đăng xuất" aria-label="Đăng xuất"><i class="fa-solid fa-right-from-bracket"></i></button>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+  <div class="main">
+    <header class="topbar">
+      <button class="icon-btn menu-btn" id="menu-btn" aria-label="Mở menu"><i class="fa-solid fa-bars"></i></button>
+      <div class="global-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" id="global-q" placeholder="Tìm giảng viên, khoa, bộ môn, hợp đồng…" data-i18n-ph="ui.search" autocomplete="off" aria-label="Tìm kiếm toàn hệ thống">
+        <div class="dropdown left" id="search-results" hidden></div>
+      </div>
+      <span class="spacer"></span>
+      <button class="icon-btn" id="theme-btn" title="Chế độ sáng/tối" aria-label="Đổi giao diện sáng/tối"><i class="fa-solid fa-moon"></i></button>
+      <div class="user-menu">
+        <button class="icon-btn" id="bell-btn" aria-label="Thông báo"><i class="fa-regular fa-bell"></i><span class="dot" id="bell-dot" hidden>0</span></button>
+        <div class="dropdown" id="notif-panel" hidden>
+          <div class="dd-head"><span>Thông báo</span><button class="btn sm ghost" id="notif-readall">Đọc tất cả</button></div>
+          <div class="dd-list" id="notif-list"></div>
+          <a class="dd-item" href="/notifications" style="justify-content:center;font-weight:600">Xem tất cả thông báo</a>
+        </div>
+      </div>
+      <a class="chip" href="{{ '/me' if user.role == 'LECTURER' else '/settings' }}" style="text-decoration:none;color:inherit"><span class="avatar sm" id="top-avatar"></span><span class="name">{{ user.full_name }}</span></a>
+    </header>
+    <main class="content" id="page">{% block content %}{% endblock %}</main>
+  </div>
+</div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='js/notifications.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

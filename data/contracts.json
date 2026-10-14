@@ -1,0 +1,466 @@
+[
+  {
+    "id": "HD001",
+    "lecturer_id": "GV001",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2019-03-09",
+    "end_date": ""
+  },
+  {
+    "id": "HD002",
+    "lecturer_id": "GV002",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2022-02-28",
+    "end_date": ""
+  },
+  {
+    "id": "HD003",
+    "lecturer_id": "GV003",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2006-06-18",
+    "end_date": ""
+  },
+  {
+    "id": "HD004",
+    "lecturer_id": "GV004",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2021-05-22",
+    "end_date": ""
+  },
+  {
+    "id": "HD005",
+    "lecturer_id": "GV005",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2004-11-21",
+    "end_date": ""
+  },
+  {
+    "id": "HD006",
+    "lecturer_id": "GV006",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2019-05-14",
+    "end_date": ""
+  },
+  {
+    "id": "HD007",
+    "lecturer_id": "GV007",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2019-10-21",
+    "end_date": ""
+  },
+  {
+    "id": "HD008",
+    "lecturer_id": "GV008",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2022-09-22",
+    "end_date": ""
+  },
+  {
+    "id": "HD009",
+    "lecturer_id": "GV009",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 1 năm",
+    "start_date": "2026-10-15",
+    "end_date": "2027-10-15"
+  },
+  {
+    "id": "HD010",
+    "lecturer_id": "GV010",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2003-09-02",
+    "end_date": ""
+  },
+  {
+    "id": "HD011",
+    "lecturer_id": "GV011",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2013-06-14",
+    "end_date": ""
+  },
+  {
+    "id": "HD012",
+    "lecturer_id": "GV012",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2017-04-01",
+    "end_date": ""
+  },
+  {
+    "id": "HD013",
+    "lecturer_id": "GV013",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "1996-11-28",
+    "end_date": ""
+  },
+  {
+    "id": "HD014",
+    "lecturer_id": "GV014",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "1993-11-08",
+    "end_date": ""
+  },
+  {
+    "id": "HD015",
+    "lecturer_id": "GV015",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2017-06-28",
+    "end_date": ""
+  },
+  {
+    "id": "HD016",
+    "lecturer_id": "GV016",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 1 năm",
+    "start_date": "2027-04-03",
+    "end_date": "2028-04-02"
+  },
+  {
+    "id": "HD017",
+    "lecturer_id": "GV017",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 3 năm",
+    "start_date": "2024-09-27",
+    "end_date": "2027-09-27"
+  },
+  {
+    "id": "HD018",
+    "lecturer_id": "GV018",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2025-11-22",
+    "end_date": ""
+  },
+  {
+    "id": "HD019",
+    "lecturer_id": "GV019",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2024-11-26",
+    "end_date": ""
+  },
+  {
+    "id": "HD020",
+    "lecturer_id": "GV020",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 1 năm",
+    "start_date": "2027-04-13",
+    "end_date": "2028-04-12"
+  },
+  {
+    "id": "HD021",
+    "lecturer_id": "GV021",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2000-03-11",
+    "end_date": ""
+  },
+  {
+    "id": "HD022",
+    "lecturer_id": "GV022",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2013-05-07",
+    "end_date": ""
+  },
+  {
+    "id": "HD023",
+    "lecturer_id": "GV023",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2008-05-20",
+    "end_date": ""
+  },
+  {
+    "id": "HD024",
+    "lecturer_id": "GV024",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2019-10-12",
+    "end_date": ""
+  },
+  {
+    "id": "HD025",
+    "lecturer_id": "GV025",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2017-09-18",
+    "end_date": ""
+  },
+  {
+    "id": "HD026",
+    "lecturer_id": "GV026",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2024-06-25",
+    "end_date": ""
+  },
+  {
+    "id": "HD027",
+    "lecturer_id": "GV027",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2008-02-11",
+    "end_date": ""
+  },
+  {
+    "id": "HD028",
+    "lecturer_id": "GV028",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2023-02-09",
+    "end_date": ""
+  },
+  {
+    "id": "HD029",
+    "lecturer_id": "GV029",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 1 năm",
+    "start_date": "2027-05-19",
+    "end_date": "2028-05-18"
+  },
+  {
+    "id": "HD030",
+    "lecturer_id": "GV030",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 3 năm",
+    "start_date": "2023-10-23",
+    "end_date": "2026-10-22"
+  },
+  {
+    "id": "HD031",
+    "lecturer_id": "GV031",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2020-04-21",
+    "end_date": ""
+  },
+  {
+    "id": "HD032",
+    "lecturer_id": "GV032",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 1 năm",
+    "start_date": "2026-05-29",
+    "end_date": "2027-05-29"
+  },
+  {
+    "id": "HD033",
+    "lecturer_id": "GV033",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2024-03-23",
+    "end_date": ""
+  },
+  {
+    "id": "HD034",
+    "lecturer_id": "GV034",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 1 năm",
+    "start_date": "2025-11-25",
+    "end_date": "2026-11-25"
+  },
+  {
+    "id": "HD035",
+    "lecturer_id": "GV035",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2025-03-01",
+    "end_date": ""
+  },
+  {
+    "id": "HD036",
+    "lecturer_id": "GV036",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2024-01-27",
+    "end_date": ""
+  },
+  {
+    "id": "HD037",
+    "lecturer_id": "GV037",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2024-06-22",
+    "end_date": ""
+  },
+  {
+    "id": "HD038",
+    "lecturer_id": "GV038",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Thỉnh giảng",
+    "start_date": "2027-03-09",
+    "end_date": "2027-09-05"
+  },
+  {
+    "id": "HD039",
+    "lecturer_id": "GV039",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 3 năm",
+    "start_date": "2023-12-01",
+    "end_date": "2026-11-30"
+  },
+  {
+    "id": "HD040",
+    "lecturer_id": "GV040",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 1 năm",
+    "start_date": "2026-09-28",
+    "end_date": "2027-09-28"
+  },
+  {
+    "id": "HD041",
+    "lecturer_id": "GV041",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2017-09-23",
+    "end_date": ""
+  },
+  {
+    "id": "HD042",
+    "lecturer_id": "GV042",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Thỉnh giảng",
+    "start_date": "2026-11-09",
+    "end_date": "2027-05-08"
+  },
+  {
+    "id": "HD043",
+    "lecturer_id": "GV043",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2018-12-17",
+    "end_date": ""
+  },
+  {
+    "id": "HD044",
+    "lecturer_id": "GV044",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2006-03-17",
+    "end_date": ""
+  },
+  {
+    "id": "HD045",
+    "lecturer_id": "GV045",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2021-08-07",
+    "end_date": ""
+  },
+  {
+    "id": "HD046",
+    "lecturer_id": "GV046",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2023-09-20",
+    "end_date": ""
+  },
+  {
+    "id": "HD047",
+    "lecturer_id": "GV047",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2006-11-14",
+    "end_date": ""
+  },
+  {
+    "id": "HD048",
+    "lecturer_id": "GV048",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2018-07-01",
+    "end_date": ""
+  },
+  {
+    "id": "HD049",
+    "lecturer_id": "GV049",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 3 năm",
+    "start_date": "2024-10-11",
+    "end_date": "2027-10-11"
+  },
+  {
+    "id": "HD050",
+    "lecturer_id": "GV050",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2023-09-27",
+    "end_date": ""
+  },
+  {
+    "id": "HD051",
+    "lecturer_id": "GV051",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Hợp đồng 3 năm",
+    "start_date": "2023-11-12",
+    "end_date": "2026-11-11"
+  },
+  {
+    "id": "HD052",
+    "lecturer_id": "GV052",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2010-02-06",
+    "end_date": ""
+  },
+  {
+    "id": "HD053",
+    "lecturer_id": "GV053",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2024-12-05",
+    "end_date": ""
+  },
+  {
+    "id": "HD054",
+    "lecturer_id": "GV054",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2020-07-02",
+    "end_date": ""
+  },
+  {
+    "id": "HD055",
+    "lecturer_id": "GV055",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2014-08-07",
+    "end_date": ""
+  },
+  {
+    "id": "HD056",
+    "lecturer_id": "GV056",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2024-12-19",
+    "end_date": ""
+  },
+  {
+    "id": "HD057",
+    "lecturer_id": "GV057",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Biên chế",
+    "start_date": "2020-03-15",
+    "end_date": ""
+  },
+  {
+    "id": "HD058",
+    "lecturer_id": "GV058",
+    "note": "Hợp đồng làm việc tại trường",
+    "type": "Thỉnh giảng",
+    "start_date": "2026-11-12",
+    "end_date": "2027-05-11"
+  }
+]
