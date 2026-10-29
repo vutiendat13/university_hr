@@ -13,7 +13,7 @@ from utils.seed_data import seed
 
 
 def create_app():
-    app = Flask(__name__)
+    gunicorn app:app
     app.config.from_object(Config)
     app.json.ensure_ascii = False
     if seed():  # lần chạy đầu: tự tạo dữ liệu demo
